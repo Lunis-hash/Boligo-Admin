@@ -1,4 +1,10 @@
-# BOLIGO — Back-office Admin
+# BOLIGO — Back-office Admin (dépôt archivé)
+
+> **Ce dépôt n'est plus utilisé.** Le tableau de bord d'administration a été
+> intégré au dépôt `Boligo-back`, dossier `admin/`, et il est servi par le site
+> statique Render `boligo-admin` (https://boligo-admin.onrender.com/login).
+> Toute modification se fait désormais là-bas ; le projet Vercel `boligo-admin`
+> peut être supprimé.
 
 Tableau de bord Next.js de l'équipe BOLIGO : membres, rencontres, parcours,
 signalements, messages bloqués et finances. Il ne contient aucune donnée : il
