@@ -65,7 +65,7 @@ export default function LoginPage() {
             </div>
             <div>
               <p className="text-lg font-semibold tracking-tight text-[#3d2c2e]">BOLIGO</p>
-              <p className="text-xs font-medium text-[#8a6b6f]">Harmonie · Back-office</p>
+              <p className="text-xs font-medium text-[#8a6b6f]">Back-office</p>
             </div>
           </div>
 
@@ -88,7 +88,7 @@ export default function LoginPage() {
               {[
                 { icon: Sparkles, text: "Tableau de bord en temps réel" },
                 { icon: Shield, text: "Gestion des membres et des parcours" },
-                { icon: Heart, text: "Aligné sur l'expérience Harmonie" },
+                { icon: Heart, text: "Aligné sur le Parcours Harmonie" },
               ].map(({ icon: Icon, text }) => (
                 <li key={text} className="flex items-center gap-3 text-sm text-[#5c484c]">
                   <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-xl bg-white/60 text-[#b84d63] shadow-sm ring-1 ring-white/70">
@@ -112,7 +112,7 @@ export default function LoginPage() {
               <Heart className="h-6 w-6 fill-[#b84d63] text-[#b84d63]" />
             </div>
             <h1 className="text-2xl font-semibold text-[#2d2224]">BOLIGO Admin</h1>
-            <p className="text-sm text-[#8a6b6f]">Back-office Harmonie</p>
+            <p className="text-sm text-[#8a6b6f]">Back-office</p>
           </div>
 
           <div className="mb-8">
@@ -172,7 +172,7 @@ export default function LoginPage() {
           </form>
 
           <p className="mt-10 text-center text-xs text-[#b0a0a3]">
-            Projet Harmonie · Données confidentielles
+            BOLIGO · Données confidentielles
           </p>
         </div>
       </section>

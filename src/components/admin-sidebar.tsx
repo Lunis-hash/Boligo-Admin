@@ -46,7 +46,7 @@ export function AdminSidebar() {
             <Activity className="h-4 w-4 text-white" />
           </span>
           <div>
-            <p className="text-sm font-semibold tracking-tight text-neutral-900">HARMONIE</p>
+            <p className="text-sm font-semibold tracking-tight text-neutral-900">BOLIGO</p>
             <p className="text-[10px] font-medium uppercase tracking-widest text-neutral-400">
               Admin
             </p>

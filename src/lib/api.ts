@@ -1,4 +1,10 @@
-const API_URL = process.env.NEXT_PUBLIC_API_URL ?? "http://localhost:3000/api";
+// En production, l'API BOLIGO sur Render ; en local, l'API lancée sur le port 3000.
+// Une variable vide est ignorée (sinon les appels partiraient vers le site lui-même).
+const API_URL =
+  process.env.NEXT_PUBLIC_API_URL ||
+  (process.env.NODE_ENV === "production"
+    ? "https://boligo-back.onrender.com/api"
+    : "http://localhost:3000/api");
 
 export class ApiError extends Error {
   constructor(
